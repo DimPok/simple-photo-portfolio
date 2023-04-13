@@ -1,0 +1,130 @@
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   display: inline-block;
+   font-weight: 300;
+   margin: 0;
+   padding: 0 32px 0 0; 
+}
+
+h1 {
+   color: navy; 
+}
+
+
+.pro-menya {
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 150px;
+}
+
+.pro-menya h3 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+
+.kontakty {
+    margin-top: 100px;
+}
+
+.kontakty p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.tesis {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-top: 0;
+}
+
+.navigator {
+    display: inline-block;
+}
+
+.navigator li {
+    display: inline-block;
+}
+
+.navigator a {
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0 8px;
+}
+
+
+.navigator ul {
+    padding: 0;
+}
+
+
+.navbar {
+    margin: 32px;
+}
+
+
+a.active {
+    padding-bottom: 3px;
+    border-bottom: solid 2px navy;
+}
+
+.photocollectsia {
+    padding: 16px;
+}
+
+
+.card {
+    width: 40%;
+    display: inline-block;
+    margin: 20px;
+}
+
+.card h2 {
+    display:inline-block;
+    margin: 8px 0 0 0;
+    font-weight: 300;
+ }
+
+.card img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 100%;
+    }
+
+    .pro-menya {
+        margin: 100px 0 100px 100px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card {
+        padding: 0;
+    }
+
+    .photocollectsia {
+        padding: 8px;
+    }
+
+    .pro-menya {
+        margin: 100px auto;
+        min-width: 450px;
+    }
+}
+
