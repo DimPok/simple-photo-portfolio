@@ -1,0 +1,1 @@
+This is a one-page portfolio site that can be used by a professional photographer (OR artist. OR a sculpture. Or a person engaged in needlework). Made on pure HTML and CSS. Responsive and seo ready. In the future, more pages and interactive elements may be added to it. But at this stage it is almost ready for use
